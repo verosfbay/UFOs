@@ -2,11 +2,11 @@
 The purpose of this project was to built a responsive web page for looking at data on UFO sightings. By responsive, I mean a webpage that has filters that you can use to filter the data by: Date, City, State, Country, Shape, Duration or Comments. This ability to filter is paramount as the data set is very large and one could easily get lost trying to find information. The filters allow me to drill down and see more granular data based on the filter I select.
 
 ### Tools Used
-VS Code
-Javascript 
-Bootstrap
-HTML
-CSS
+* VS Code
+* Javascript 
+* Bootstrap
+* HTML
+* CSS
 
 ## Results 
 To see the results, just type the keywords inside the white rectangle next or under each filter. There is placeholder text in each filter that assists you by showing you the proper format to type. 
