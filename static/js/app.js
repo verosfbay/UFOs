@@ -31,3 +31,30 @@ data.forEach((dataRow) => {
     );
   });
 }
+
+// tells the code what to do when an event occurs
+// (such as someone clicking a filter button)
+function handleClick() { 
+    // we need to create a couple of variables to hold our date data, 
+    // both filtered and unfiltered.
+    let date = d3.select("#datetime").property("value");
+    // Our default filter will actually be the original table data 
+    // because we want users to refine their search on their own terms
+    let filteredData = tableData;
+    
+    if (date) {
+    // Apply `filter` to the table data to only keep the
+    // rows where the `datetime` value matches the filter value
+        filteredData = filteredData.filter(row => row.datetime === date);
+    }
+    // Rebuild the table using the filtered data
+    // @NOTE: If no date was entered, then filteredData will
+    // just be the original tableData.
+    buildTable(filteredData);
+}
+// how does the code know when a click happens
+// Our selector string contains the id for another HTML tag
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Build the table when the page loads
+buildTable(tableData);
