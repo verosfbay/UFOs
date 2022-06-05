@@ -7,11 +7,6 @@ var tbody = d3.select("tbody");
 // Declare a variable, tbody
 // Use d3.select to tell JavaScript to look for the <tbody> tags in the HTML
 
-// Simple JavaScript console.log statement
-function printHello() {
-    console.log("Hello there!");
-  }
-
 function buildTable(data) {
     // First, clear out any existing data 
     tbody.html("");
@@ -43,9 +38,11 @@ function updateFilters() {
 
     // 4b. Save the value that was changed as a variable.
     let elementValue = element.property("value");
+    console.log(elementValue);
 
     // 4c. Save the id of the filter that was changed as a variable.
     let elementId = element.attr("id");
+    console.log(filterId)
   
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
