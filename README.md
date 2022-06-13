@@ -11,9 +11,9 @@ The purpose of this project was to built a responsive web page for looking at da
 ## Results 
 To see the results, just type the keywords inside the white rectangle next or under each filter. There is placeholder text in each filter that assists you by showing you the proper format to type. 
 
-Image 1
+<img width="1366" alt="Screen Shot 2022-06-12 at 5 35 03 PM" src="https://user-images.githubusercontent.com/95447175/173260502-8574a8d6-9fd7-4939-bd33-c2845f603502.png">
 
-Image 2
+<img width="1210" alt="Screen Shot 2022-06-12 at 5 35 20 PM" src="https://user-images.githubusercontent.com/95447175/173260512-bde26266-6996-43cf-a0ec-839a053aedb4.png">
 
 Image 3
 
