@@ -13,9 +13,9 @@ To see the results, just type the keywords inside the white rectangle next or un
 
 <img width="1366" alt="Screen Shot 2022-06-12 at 5 35 03 PM" src="https://user-images.githubusercontent.com/95447175/173260502-8574a8d6-9fd7-4939-bd33-c2845f603502.png">
 
-<img width="1210" alt="Screen Shot 2022-06-12 at 5 35 20 PM" src="https://user-images.githubusercontent.com/95447175/173260512-bde26266-6996-43cf-a0ec-839a053aedb4.png">
+<img width="1076" alt="Screen Shot 2022-06-12 at 5 49 44 PM" src="https://user-images.githubusercontent.com/95447175/173261096-b1e757f9-7168-4fd0-8b71-4eaee7002857.png">
 
-Image 3
+<img width="1026" alt="Screen Shot 2022-06-12 at 5 49 23 PM" src="https://user-images.githubusercontent.com/95447175/173261107-2327b7e1-25a2-41d0-ac90-c9eb1326b3de.png">
 
 ## Summary
 One drawback of this webpage is that it is kind of dull stylistically, it doesn't have a very exciting aesthetic, and the text size may not be user-friendly.
